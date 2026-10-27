@@ -1,4 +1,4 @@
-# FitPulse Frontend
+# FitSense Frontend
 
 FitPulse is the frontend application for a fitness tracking platform. It provides the user interface for:
 
