@@ -1,0 +1,51 @@
+/* Design tokens. Breakpoints (CSS can't use variables in media queries):
+   sm 600px · md 960px (sidebar appears) · lg 1200px */
+:root {
+  /* Color */
+  --ink-900: #101828;
+  --ink-700: #344054;
+  --ink-500: #5b6475;
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --border: #e6e3da;
+  --emerald-700: #0b7d55;
+  --emerald-600: #0f9d6b;
+  --emerald-50: #e7f6ef;
+  --lime-300: #c8f169;
+  --lime-400: #b6e84a;
+  --violet-700: #4a47b8;
+  --violet-600: #5b5bd6;
+  --violet-50: #efeefe;
+  --amber-800: #7a4a05;
+  --amber-100: #fdf1d8;
+  --amber-300: #f0c76b;
+  --red-700: #b42318;
+  --red-50: #fdecea;
+
+  /* Typography */
+  --font-display: 'Bricolage Grotesque', 'Figtree', system-ui, sans-serif;
+  --font-body: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Spacing (8px scale) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+
+  /* Radius */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-md: 0 8px 24px rgba(16, 24, 40, 0.08);
+
+  /* Layers */
+  --z-topbar: 20;
+  --z-nav: 30;
+  --z-menu: 40;
+  --z-toast: 50;
+}
